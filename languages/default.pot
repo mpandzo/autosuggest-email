@@ -1,0 +1,42 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Autosuggest Email\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-11 09:43+0100\n"
+"Last-Translator: Mirza Pandzo <mpandzo@gmail.com>\n"
+"Language-Team: Mirza Pandzo <mpandzo@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"PO-Revision-Date: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autosuggest-email.php:64
+msgid "Autosuggest Email"
+msgstr ""
+
+#: partials/admin-settings.php:5
+msgid "Autosuggest Email settings"
+msgstr ""
+
+#: partials/admin-settings.php:13
+msgid "Override email providers"
+msgstr ""
+
+#: partials/admin-settings.php:14 partials/admin-settings.php:24
+msgid "One per row please"
+msgstr ""
+
+#: partials/admin-settings.php:18 partials/admin-settings.php:28
+msgid "Default:"
+msgstr ""
+
+#: partials/admin-settings.php:23
+msgid "Override email tlds"
+msgstr ""
