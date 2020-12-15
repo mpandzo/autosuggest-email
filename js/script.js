@@ -44,6 +44,7 @@
               postfixPart2 = tldSuggester(postfixPart2);
             }
 
+            $(input).parent().find('.ase_suggestion').remove();
             $(input).parent().append(`<a href="#" data-suggestion="${prefix}@${postfixPart1}.${postfixPart2}" class="ase_suggestion">Did you mean ${prefix}@${postfixPart1}.${postfixPart2}?`);
 
             $('.ase_suggestion').on('click', function (e) {
