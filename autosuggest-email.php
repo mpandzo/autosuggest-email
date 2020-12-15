@@ -38,7 +38,7 @@ class AutoSuggestEmail
     public function wp_enqueue_scripts()
     {
         wp_enqueue_script("autosuggest-email-lib", plugin_dir_url(__FILE__) . "js/autosuggest-email.js", array("jquery"), AUTOCORRECT_EMAIL_VERSION, true);
-        wp_enqueue_script("autosuggest-email-script", plugin_dir_url(__FILE__) . "js/script.js", array("jquery"), AUTOCORRECT_EMAIL_VERSION, true);
+        wp_enqueue_script("autosuggest-email-script", plugin_dir_url(__FILE__) . "js/script.js", array("jquery", "autosuggest-email-lib"), AUTOCORRECT_EMAIL_VERSION, true);
 
         $custom_providers = get_option("ase_email_providers");
         $custom_tlds = get_option("ase_email_tlds");
